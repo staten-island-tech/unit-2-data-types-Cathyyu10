@@ -17,6 +17,9 @@ print(y)
 print(z)
  """
 
-sentence = input("Write_a_sentence: ") 
-print(len(sentence.split()))
+""" sentence = input("Write_a_sentence: ") 
+print(len(sentence.split())) """
 
+Food = input("Food: ")
+Name = input("Name: ")
+Adjective = input("Adjective: ")
