@@ -10,9 +10,13 @@ print(values) """
 """ print(values[0])
 print(values[6]) """
 
-x = "this is a thing"
+""" x = "this is a thing"
 y= x.split( )
 z = y[0]
 print(y)
 print(z)
+ """
+
+sentence = input("Write_a_sentence: ") 
+print(len(sentence.split()))
 
