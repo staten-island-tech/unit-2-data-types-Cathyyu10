@@ -39,8 +39,43 @@ if day_of_week == "Friday":
 else: 
     print("incorrect") """ 
 
-x = "test"
-print(f"hello {x}")
+""" x = "test"
+print(f"hello {x}") """
+
+""" temp = 75
+if temp > 68:
+    print('warm')
+elif temp == 68:
+    print('perfect')
+else:
+    print('cold') """
+
+""" number = int(input("number: "))
+if (int(number % 2 )) == 0:
+    print('even')
+else:
+    print('odd') """
+
+""" 
+bill = int(input("Bill: "))
+service = input("Service: ")
+if service == ("bad"):
+    print('0% tip')
+elif service == ("okay"):
+    print('15% tip')
+elif service == ("good"):
+    print('20% tip')
+elif service == ("great"):
+    print('25% tip')
+else:
+    print('error') """
+
+def print_factors(x):
+    print("The factors of",x,"are:")
+    for i in range(1, x + 1):
+        if x % 1 == 0:
+        print(i)
+
 
 
 
