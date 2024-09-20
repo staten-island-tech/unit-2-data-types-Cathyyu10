@@ -70,11 +70,39 @@ elif service == ("great"):
 else:
     print('error') """
 
-def print_factors(x):
-    print("The factors of",x,"are:")
+""" def print_factors(x):
+    print("The factors of",x,"are: ")
     for i in range(1, x + 1):
-        if x % 1 == 0:
-        print(i)
+        if x % i == 0:
+            print(i)
+
+num=int(input("Number: "))
+print_factors(num) """
+
+num1 = int(input("First_Number: "))
+x = num1
+num2 = int(input("Second_Number: "))
+y = num2
+
+def gcf(x,y):
+    if x > y:
+        smaller = y
+    
+    else:
+        smaller = x
+    for i in range(1, smaller + 1):
+        if (x % i == 0) and (y % i == 0):
+            gcf = i
+    return gcf
+ 
+print("The greatest common factor of",x," and ",y,"is: ")
+print(gcf(x,y))
+
+
+    
+
+
+
 
 
 
