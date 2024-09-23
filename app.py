@@ -17,7 +17,7 @@ print(y)
 print(z)
  """
 
-""" sentence = input("Write_a_sentence: ") 
+sentence = input("Write_a_sentence: ") 
 print(len(sentence.split())) """
 
 """ noun = input("noun: ")
@@ -31,7 +31,7 @@ result = input("winner_or_loser: ")
 verb2 = input("verb: ")
 emotion = input("emotion: ")
 
-print(f"Today was the {noun} competition and there were {number} other contestants. However, you were late to the competition so you decided to {verb} there. When you got there you were confronted by {celebrity} who turns out to be the judge! It was time to present your {noun}. My {noun} is very {adjective} and {adjective2}, you said. At the end of the competition you were announced as the #{number2} {result}. As a result, you decided to {verb2} {celebrity}. At the end of the day, you were {emotion}.") """
+print(f"Today was the {noun} competition and there were {number} other contestants. However, you were late to the competition so you decided to {verb} there. When you got there you were confronted by {celebrity} who turns out to be the judge! It was time to present your {noun}. My {noun} is very {adjective} and {adjective2}, you said. At the end of the competition you were announced as the #{number2} {result}. As a result, you decided to {verb2} {celebrity}. At the end of the day, you were {emotion}.")
 
 """ day_of_week = input("what day is it? ")
 if day_of_week == "Friday":
@@ -79,9 +79,9 @@ else:
 num=int(input("Number: "))
 print_factors(num) """
 
-num1 = int(input("First_Number: "))
+""" num1 = int(input("First Number: "))
 x = num1
-num2 = int(input("Second_Number: "))
+num2 = int(input("Second Number: "))
 y = num2
 
 def gcf(x,y):
@@ -97,6 +97,8 @@ def gcf(x,y):
  
 print("The greatest common factor of",x," and ",y,"is: ")
 print(gcf(x,y))
+ """
+
 
 
     
